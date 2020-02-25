@@ -1,0 +1,22 @@
+<div class="tab-pane active mt-5" id="home" role="tabpanel" aria-labelledby="home-tab">
+    <h2>Tags</h2>
+    <div class="table-responsive">
+        <table class="table table-striped table-sm">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th colspan="2">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="item in tags">
+                <td>{{item.tag.id.$oid}}</td>
+                <td>{{item.tag.name}}</td>
+                <td><button type="button" class="btn btn-primary">Delete</button></td>
+                <td><button type="button" class="btn btn-primary">View Todos</button></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

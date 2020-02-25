@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="todoApp">
+
+<head>
+    <title>Introduction to AngularJS</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+
+    <!-- load bootstrap and fontawesome via CDN -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#/">TODO</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#/"><i class="fa fa-home"></i> Home</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <div>
+        <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="tags-tab" data-toggle="tab" href="#/" role="tab" aria-controls="home"
+                   aria-selected="true">Tags</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="todos-tab" data-toggle="tab" href="#/todo_items" role="tab"
+                   aria-controls="profile"
+                   aria-selected="false">Todo Items</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="archived-todos-tab" data-toggle="tab" href="#/archived_items" role="tab"
+                   aria-controls="profile"
+                   aria-selected="false">Archived Todo Items</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+            <div ng-view></div>
+        </div>
+    </div>
+</div>
+<!-- load angular and other libraries via CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.31/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.31/angular-route.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.31/angular-resource.min.js"></script>
+
+<script src="src/app.js"></script>
+
+<!--Load Routes-->
+<script src="src/config/routes.js"></script>
+
+<!--Load controllers-->
+<script src="src/controllers/todo_items_controller/index.js"></script>
+<script src="src/controllers/todo_items_controller/archivedItems.js"></script>
+<script src="src/controllers/tags_controller/index.js"></script>
+
+<!--Load directives-->
+<script src="src/directives/elementsList.js"></script>
+</body>
+</html>

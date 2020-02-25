@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56b2a4a2-c375-4715-8add-88dfcb2837e0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Y3z7lst8QYbGwmJK6yDzQvb2TK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56b2a4a2-c375-4715-8add-88dfcb2837e0" name="Default Changelist" comment="" />
+      <created>1582185900584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582185900584</updated>
+      <workItem from="1582185902454" duration="1139000" />
+      <workItem from="1582187347039" duration="946000" />
+      <workItem from="1582192725567" duration="1804000" />
+      <workItem from="1582194555777" duration="1844000" />
+      <workItem from="1582196475536" duration="1783000" />
+      <workItem from="1582198294291" duration="1782000" />
+      <workItem from="1582200109700" duration="1779000" />
+      <workItem from="1582201917581" duration="1782000" />
+      <workItem from="1582203737490" duration="1756000" />
+      <workItem from="1582454735444" duration="1766000" />
+      <workItem from="1582456528717" duration="1776000" />
+      <workItem from="1582458347086" duration="1780000" />
+      <workItem from="1582460174575" duration="1043000" />
+      <workItem from="1582462682164" duration="1781000" />
+      <workItem from="1582464549245" duration="1202000" />
+      <workItem from="1582466380701" duration="1786000" />
+      <workItem from="1582468190261" duration="845000" />
+      <workItem from="1582470027332" duration="1784000" />
+      <workItem from="1582471835914" duration="1787000" />
+      <workItem from="1582473650117" duration="1026000" />
+      <workItem from="1582523396963" duration="1779000" />
+      <workItem from="1582525217763" duration="1313000" />
+      <workItem from="1582527034740" duration="1501000" />
+      <workItem from="1582528842876" duration="1777000" />
+      <workItem from="1582530659458" duration="858000" />
+      <workItem from="1582543774614" duration="599000" />
+      <workItem from="1582545844783" duration="1783000" />
+      <workItem from="1582547662110" duration="1596000" />
+      <workItem from="1582549470703" duration="1781000" />
+      <workItem from="1582551326109" duration="1399000" />
+      <workItem from="1582553131327" duration="267000" />
+      <workItem from="1582606770235" duration="1457000" />
+      <workItem from="1582610818580" duration="1427000" />
+      <workItem from="1582612646756" duration="901000" />
+      <workItem from="1582614629004" duration="1749000" />
+      <workItem from="1582616421756" duration="1770000" />
+      <workItem from="1582618231494" duration="1152000" />
+      <workItem from="1582621916389" duration="1655000" />
+      <workItem from="1582623729722" duration="648000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582187691725">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="616" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1582187691725" />
+    <state width="1487" height="219" key="GridCell.Tab.0.bottom" timestamp="1582203418417">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="219" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1582203418417" />
+    <state width="1487" height="219" key="GridCell.Tab.0.center" timestamp="1582203418417">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="219" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1582203418417" />
+    <state width="1487" height="219" key="GridCell.Tab.0.left" timestamp="1582203418416">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="219" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1582203418416" />
+    <state width="1487" height="219" key="GridCell.Tab.0.right" timestamp="1582203418417">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="219" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1582203418417" />
+    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582529512233">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1582529512233" />
+    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873@67.27.1533.873" timestamp="1582456440785" />
+    <state x="497" y="140" width="662" height="645" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582455891712">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="497" y="140" width="662" height="645" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1533.873@67.27.1533.873" timestamp="1582455891712" />
+    <state x="481" y="174" width="704" height="576" key="find.popup" timestamp="1582457743039">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="481" y="174" width="704" height="576" key="find.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1582201302372" />
+    <state x="481" y="174" width="704" height="576" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1582457743039" />
+  </component>
+</project>

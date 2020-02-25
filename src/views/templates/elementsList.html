@@ -1,0 +1,29 @@
+<div class="tab-pane mt-5" id="profile" role="tabpanel" aria-labelledby="{{page_title}}-tab" ng-cloak="true">
+    <h2>{{pageTitle}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped table-sm">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Tags</th>
+                <th>Status</th>
+                <th>Created At</th>
+                <th colspan="2">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="item in elements">
+                <td>{{ item.todo_item.id.$oid }}</td>
+                <td>{{item.todo_item.title}}</td>
+                <td>{{ item.todo_item.tags}}</td>
+                <td>{{item.todo_item.status}}</td>
+                <td>{{item.todo_item.created_at}}</td>
+                <td><button type="button" class="btn btn-primary">Edit</button></td>
+                <td><button type="button" class="btn btn-primary">{{ itemButtonText }}</button></td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
