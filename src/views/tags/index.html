@@ -13,7 +13,12 @@
             <tr ng-repeat="item in tags">
                 <td>{{item.tag.id.$oid}}</td>
                 <td>{{item.tag.name}}</td>
-                <td><button type="button" class="btn btn-primary">Delete</button></td>
+                <td><button
+                        type="button"
+                        class="btn btn-primary"
+                        ng-click="deleteTag(item.tag.id.$oid)">
+                    Destroy
+                </button></td>
                 <td><button type="button" class="btn btn-primary">View Todos</button></td>
             </tr>
             </tbody>
