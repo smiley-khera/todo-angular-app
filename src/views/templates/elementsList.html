@@ -15,14 +15,26 @@
             <tbody>
             <tr ng-repeat="item in elements">
                 <td>{{ item.todo_item.id.$oid }}</td>
-                <td>{{item.todo_item.title}}</td>
+                <td>{{ item.todo_item.title}}</td>
                 <td>{{ item.todo_item.tags}}</td>
-                <td>{{item.todo_item.status}}</td>
-                <td>{{item.todo_item.created_at}}</td>
-                <td><button type="button" class="btn btn-primary">Edit</button></td>
-                <td><button type="button" class="btn btn-primary">{{ itemButtonText }}</button></td>
+                <td>{{ item.todo_item.status}}</td>
+                <td>{{ item.todo_item.created_at}}</td>
+                <td>
+                    <button
+                            type="button"
+                            class="btn btn-primary">
+                        Edit
+                    </button>
+                </td>
+                <td>
+                    <button
+                            type="button"
+                            class="btn btn-primary"
+                            ng-click="deleteOrRestoreAction({id: item.todo_item.id.$oid})">
+                        {{itemButtonText}}
+                    </button>
+                </td>
             </tr>
-
             </tbody>
         </table>
     </div>

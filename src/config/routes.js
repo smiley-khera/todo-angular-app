@@ -17,5 +17,4 @@ todoApp.config(function ($routeProvider) {
             templateUrl: 'src/views/todo_items/archivedTodoItems.html',
             controller: 'archivedItemsCtrl'
         })
-
 });

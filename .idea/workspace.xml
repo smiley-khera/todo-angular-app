@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56b2a4a2-c375-4715-8add-88dfcb2837e0" name="Default Changelist" comment="" />
+    <list default="true" id="56b2a4a2-c375-4715-8add-88dfcb2837e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/todo_items_controller/archivedItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/todo_items_controller/archivedItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/todo_items_controller/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/todo_items_controller/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/directives/elementsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/directives/elementsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/templates/elementsList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/templates/elementsList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/todo_items/archivedTodoItems.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/todo_items/archivedTodoItems.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/todo_items/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/todo_items/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Y3z7lst8QYbGwmJK6yDzQvb2TK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -76,7 +93,23 @@
       <workItem from="1582616421756" duration="1770000" />
       <workItem from="1582618231494" duration="1152000" />
       <workItem from="1582621916389" duration="1655000" />
-      <workItem from="1582623729722" duration="648000" />
+      <workItem from="1582623729722" duration="1780000" />
+      <workItem from="1582625539454" duration="1814000" />
+      <workItem from="1582627598565" duration="1782000" />
+      <workItem from="1582629410651" duration="1781000" />
+      <workItem from="1582631220816" duration="1776000" />
+      <workItem from="1582633029828" duration="1782000" />
+      <workItem from="1582634839737" duration="598000" />
+      <workItem from="1582636713711" duration="599000" />
+      <workItem from="1582638580949" duration="598000" />
+      <workItem from="1582640399146" duration="950000" />
+      <workItem from="1582693414370" duration="1780000" />
+      <workItem from="1582695230159" duration="1668000" />
+      <workItem from="1582697063053" duration="1780000" />
+      <workItem from="1582698882515" duration="2348000" />
+      <workItem from="1582702620037" duration="1789000" />
+      <workItem from="1582704433656" duration="840000" />
+      <workItem from="1582705313482" duration="277000" />
     </task>
     <servers />
   </component>
@@ -104,19 +137,19 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1487" height="219" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1582203418417" />
-    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582529512233">
+    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582705264848">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1582529512233" />
+    <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1582705264848" />
     <state x="167" y="125" width="1333" height="675" key="com.intellij.history.integration.ui.views.FileHistoryDialog/67.27.1533.873@67.27.1533.873" timestamp="1582456440785" />
     <state x="497" y="140" width="662" height="645" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582455891712">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="497" y="140" width="662" height="645" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1533.873@67.27.1533.873" timestamp="1582455891712" />
-    <state x="481" y="174" width="704" height="576" key="find.popup" timestamp="1582457743039">
+    <state x="481" y="174" width="704" height="576" key="find.popup" timestamp="1582703972718">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state x="481" y="174" width="704" height="576" key="find.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1582201302372" />
+    <state x="481" y="174" width="704" height="576" key="find.popup/67.27.1533.873/1600.0.1920.1080@67.27.1533.873" timestamp="1582703972718" />
     <state x="481" y="174" width="704" height="576" key="find.popup/67.27.1533.873@67.27.1533.873" timestamp="1582457743039" />
   </component>
 </project>
