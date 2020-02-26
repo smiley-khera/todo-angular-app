@@ -6,7 +6,8 @@ todoApp.directive("elementsList", function() {
         scope: {
             pageTitle: "@",
             elements: "=",
-            itemButtonText: "@"
+            itemButtonText: "@",
+            deleteOrRestoreAction: "&"
         }
     }
 });

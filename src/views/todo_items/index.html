@@ -1,2 +1,6 @@
-<!--<div ng-include="'src/views/todo_items/_items.html'"></div>-->
-<elements-list elements="todoItems" page-title="{{pageTitle}}" item-button-text="Delete"></elements-list>
+<elements-list
+        elements="todoItems"
+        page-title="{{pageTitle}}"
+        item-button-text="Destroy"
+        delete-or-restore-action="deleteTodo(id)"
+/>
