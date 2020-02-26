@@ -1,8 +1,12 @@
-todoApp.controller('itemsIndexCtrl', ['$scope', '$log', '$http', '$location', function ($scope, $log, $http, $location) {
+todoApp.controller('itemsIndexCtrl', ['$scope', '$log', '$http', '$location','$routeParams', function ($scope, $log, $http, $location, $routeParams) {
 
     /* Fetch all to-do items*/
     $scope.fetchTodoItems = function () {
-        $http.get('http://localhost:3001/api/v1/todo_items.json?page=1')
+        let url = (!$routeParams.id)
+            ? 'http://localhost:3001/api/v1/todo_items.json'
+            : 'http://localhost:3001/api/v1/tags/' + $routeParams.id + '/todo_items.json';
+
+        $http.get(url)
             .success(function (result) {
                 $scope.todoItems = result;
                 $scope.pageTitle = "Todo Items";
