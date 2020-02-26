@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56b2a4a2-c375-4715-8add-88dfcb2837e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/tags_controller/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/tags_controller/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/todo_items_controller/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/todo_items_controller/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tags/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,6 +104,8 @@
       <workItem from="1582702620037" duration="1789000" />
       <workItem from="1582704433656" duration="840000" />
       <workItem from="1582705313482" duration="277000" />
+      <workItem from="1582710024307" duration="1789000" />
+      <workItem from="1582711840689" duration="1659000" />
     </task>
     <servers />
   </component>

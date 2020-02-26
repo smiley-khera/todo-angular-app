@@ -17,4 +17,9 @@ todoApp.config(function ($routeProvider) {
             templateUrl: 'src/views/todo_items/archivedTodoItems.html',
             controller: 'archivedItemsCtrl'
         })
+
+        .when('/tags/:id/todo_items', {
+            templateUrl: 'src/views/todo_items/index.html',
+            controller: 'itemsIndexCtrl'
+        })
 });
