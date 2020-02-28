@@ -22,7 +22,9 @@
                 <td>
                     <button
                             type="button"
-                            class="btn btn-primary">
+                            class="btn btn-primary"
+                            ng-click="location.path('todo_items/'+ item.todo_item.id.$oid + '/edit')"
+                            ng-hide="pageTitle.includes('Archived')">
                         Edit
                     </button>
                 </td>

@@ -22,4 +22,9 @@ todoApp.config(function ($routeProvider) {
             templateUrl: 'src/views/todo_items/index.html',
             controller: 'itemsIndexCtrl'
         })
+
+        .when('/todo_items/:id/edit', {
+            templateUrl: 'src/views/todo_items/edit.html',
+            controller: 'itemsEditCtrl'
+        })
 });

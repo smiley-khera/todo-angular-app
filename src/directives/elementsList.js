@@ -7,7 +7,8 @@ todoApp.directive("elementsList", function() {
             pageTitle: "@",
             elements: "=",
             itemButtonText: "@",
-            deleteOrRestoreAction: "&"
+            deleteOrRestoreAction: "&",
+            location: "="
         }
     }
 });
