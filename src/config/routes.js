@@ -8,6 +8,11 @@ todoApp.config(function ($routeProvider) {
             controller: 'tagsIndexCtrl'
         })
 
+        .when('/tags/new', {
+            templateUrl: 'src/views/tags/new.html',
+            controller: 'tagsNewCtrl'
+        })
+
         .when('/todo_items', {
             templateUrl: 'src/views/todo_items/index.html',
             controller: 'itemsIndexCtrl'
